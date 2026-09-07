@@ -357,6 +357,7 @@ if "PM2.5" in df.columns:
         alpha=0.35,
         s=14
     )
+    ax.set_xlim(0, 400)
 
     ax.set_title(
         "PM2.5 Concentration vs AQI"
